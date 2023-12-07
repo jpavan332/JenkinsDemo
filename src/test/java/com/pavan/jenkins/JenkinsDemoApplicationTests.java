@@ -17,7 +17,7 @@ class JenkinsDemoApplicationTests {
 	void contextLoads() {
 		
 		logger.info("Test Case Executed....");
-		
+		logger.info("checking automatic build...");
 		assertEquals(true, true);
 	}
 
