@@ -15,7 +15,7 @@ public class JenkinsDemoApplication {
 	
 	@PostConstruct
 	public void init() {
-		logger.info("Application Started.....")
+		logger.info("Application Started.....");
 		System.out.println("Pipelines Dev-->UAT-->Prod is added");
 	}
 
